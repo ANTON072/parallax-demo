@@ -1,0 +1,40 @@
+{
+  "name": "parallax-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:ANTON072/parallax-demo.git",
+  "author": "Katsushi OUGI <bdbkx286@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "yarn clean && NODE_ENV=production webpack",
+    "clean": "del ./build"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/polyfill": "^7.2.5",
+    "@babel/preset-env": "^7.3.1",
+    "autoprefixer": "^9.4.7",
+    "babel-eslint": "^10.0.1",
+    "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^2.1.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.8",
+    "del-cli": "^1.1.0",
+    "eslint": "^5.12.1",
+    "eslint-config-prettier": "^3.6.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "node-sass-glob-importer": "^5.3.0",
+    "npm-run-all": "^4.1.5",
+    "postcss-loader": "^3.0.0",
+    "prettier": "^1.16.1",
+    "sass-loader": "^7.1.0",
+    "webpack": "^4.29.0",
+    "webpack-cli": "^3.2.1",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
