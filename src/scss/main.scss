@@ -1,0 +1,26 @@
+h1 {
+  margin: 100px 0;
+}
+
+#wrapper {
+  width: 700px;
+  min-height: 2000px;
+  margin: 0 auto;
+}
+
+.thumbnail {
+  width: 200px;
+  height: 200px;
+  background: #000;
+  &-cover {
+    position: relative;
+    height: 100%;
+    overflow: hidden;
+  }
+  &-img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 115%;
+    transform: translate3d(0, 0, 0);
+  }
+}
